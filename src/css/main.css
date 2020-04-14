@@ -1,0 +1,16 @@
+/* Add CSS styling here */
+
+@import "./reset.css";
+
+
+* {
+    box-sizing: border-box;
+}
+ 
+body {
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
