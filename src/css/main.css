@@ -63,7 +63,7 @@ nav a {
     border: 1px solid white;
     border-radius: 6px;
     padding: 11px 28px;
-    margin: 0 10px;;
+    margin: 0 10px;
     color: white;
     font-family: lato;
     font-size: 14px;
@@ -71,15 +71,18 @@ nav a {
 }
 nav a:hover{
     display: inline-block;
-    border: solid white;
+    border: 1px solid white;
     border-radius: 6px;
     padding: 11px 28px;
-    margin: 0 10px;;
-    color: #293D7C;
+    margin: 0 10px;
+    
     font-family: lato;
-    background: rgba(255, 255, 255, 0.5);
     font-size: 14px;
-line-height: 17px;
+    line-height: 17px;
+   
+    color: #293D7C;
+    background: rgba(255, 255, 255, 0.5);
+    
 }
 .active{
     display: inline-block;
