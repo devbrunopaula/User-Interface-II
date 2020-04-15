@@ -127,7 +127,7 @@ text-transform: uppercase;
 /* =========================   GALERRY  =========================  */
 .galerry {
     display: flex ;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     
     flex-wrap: wrap;
@@ -136,7 +136,7 @@ text-transform: uppercase;
 
 .card {
     
-    max-width: calc( 80% / 3);
+    max-width: calc( 90% / 3);
     margin: 20px;
 }
 
