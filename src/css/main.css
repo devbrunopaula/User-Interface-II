@@ -30,7 +30,7 @@ h2 {
 
 
 .wrapper {
-    min-height: calc(100vh - 100px);
+    min-height: calc(100vh - 175px);
 }
 
 .container {
@@ -125,19 +125,12 @@ text-transform: uppercase;
 
 
 /* =========================   GALERRY  =========================  */
-.galerry {
-    display: flex ;
-    justify-content: space-between;
-    align-items: center;
-    
-    flex-wrap: wrap;
-     
-}
+
 
 .card {
     
-    max-width: calc( 90% / 3);
-    margin: 20px;
+
+    margin:5px;
 }
 
 .card img {
@@ -149,12 +142,23 @@ text-transform: uppercase;
 
 footer{
     
-    height: 100px;
+    height: 175px;
     width: 100%;
 background-color: gray;
+display: flex;
+justify-content: center;
+align-items: center;
 
 }
-
+.footer__content{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-direction: column;
+   padding: 20px;
+   
+    
+}
 .project-btn {
     margin-top: 30px;
     background:rgb(196, 196, 196);
@@ -168,45 +172,45 @@ background-color: gray;
 }
 
 
-/* =========================   DESKTOP MEDIA QUERY   =========================  */
-@media only screen and (max-width: 600px) {
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80px;
+    
+    
+    
+}   
+.icons img{
+    width: 30px;
+    height:30px; 
+   
+    fill: white     
+    
+}
 
+/* =========================   DESKTOP MEDIA QUERY   =========================  */
+@media (min-width: 600px) {
+ 
     .galerry {
+  
         display: flex ;
         justify-content: space-evenly;
         align-items: center;
         
         flex-wrap: wrap;
-         
-    }
+        /* margin: 10px auto; */
+    } 
     
     .card {
-        
-        max-width: calc( 100%);
-        margin: 20px;
+       
+        max-width: calc( 95% / 3);
     }
     
-    .card img {
-        
-        width: 100%;
-    }
+    
 
 
 }
 
-.icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    
-    
-}
-.icons a {
-    width: 30px;
-    height:30px; 
-    margin: 0 10px;
-    color: white;
-    
-}
+
 
