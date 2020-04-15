@@ -39,3 +39,15 @@ border-radius: 9px;
     height: 50px;
     border-radius: 20px;
 }
+
+.sidebar img {
+    margin: 30px 0;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.sidebar li {
+    font-size: 1.2rem;
+    padding: .5rem;
+    
+}
