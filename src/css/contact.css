@@ -1,0 +1,41 @@
+.form-wrapper {
+display: flex;
+justify-content:space-evenly ;
+align-items: flex-start;
+
+}
+
+
+.sidebar {
+    flex: 1;
+    
+    background-color: rgb(231, 231, 231);
+    
+    height: calc(100vh - 100px);
+    
+}
+
+.main-form {
+    flex: 3;
+    align-self: flex-start;
+    
+}
+
+header h2 {
+    text-align: center;
+   
+}
+
+input[placeholder]{
+font-size: 1.3rem;
+padding: 10px;
+width: 250px;
+margin: 20px;
+border-radius: 9px;
+}
+
+#saveForm {
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+}

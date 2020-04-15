@@ -1,10 +1,10 @@
-/* Add CSS styling here */
+
 /* =========================   IMPORTS   =========================  */
-
-
- 
+@import './projects.css';
+@import './contact.css';
 /* =========================   RESETS   =========================  */
 @import "./reset.css";
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -16,11 +16,18 @@ ul{
     list-style: none;
 }
 
+h2 {
+    font-size: 2rem;
+    padding:10px
+}
 /* =========================   FONTS   =========================  */
 
 @import url('https://fonts.googleapis.com/css2?family=Michroma&family=Montserrat:wght@400;600&display=swap');
 
 /* =========================   LAYOUT   =========================  */
+
+
+
 
 .wrapper {
     min-height: calc(100vh - 100px);
@@ -185,5 +192,21 @@ background-color: gray;
     }
 
 
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+.icons a {
+    width: 30px;
+    height:30px; 
+    margin: 0 10px;
+    color: white;
+    
 }
 
